@@ -1,0 +1,206 @@
+INFO: Using the 4-if_convert.pas file for input
+found |PROGRAM| PROGRAM
+enter <program>
+|  found |CONVERT1| IDENTIFIER
+|  found |;| SEMICOLON
+|  found |VAR| BLOCK
+|  enter <block>
+|  |  found |F| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |REAL| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |F| idType: |REAL| --
+|  |  found |C| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |REAL| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |C| idType: |REAL| --
+|  |  found |BEGIN| BEGIN
+|  |  enter <compound_stmt>
+|  |  |  found |READ| STATEMENT
+|  |  |  enter <read>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |F| IDENTIFIER
+|  |  |  |  F
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <read>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |IF| STATEMENT
+|  |  |  enter <if>
+|  |  |  |  found |F| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |F| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |F| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |F| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |F| IDENTIFIER
+|  |  |  |  |  |  |  |  F
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  found |<| LESSTHAN
+|  |  |  |  |  <
+|  |  |  |  |  found |-| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |-| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |-| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |-| MINUS
+|  |  |  |  |  |  |  |  -
+|  |  |  |  |  |  |  |  found |100| FACTOR
+|  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  found |100| INTLIT
+|  |  |  |  |  |  |  |  |  100
+|  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  exit <expression>
+|  |  |  |  found |THEN| THEN
+|  |  |  |  found |BEGIN| STATEMENT
+|  |  |  |  found |BEGIN| BEGIN
+|  |  |  |  enter <compound_stmt>
+|  |  |  |  |  found |WRITE| STATEMENT
+|  |  |  |  |  enter <write>
+|  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  found |'Temp is too low!'| WRITE
+|  |  |  |  |  |  'Temp is too low!'
+|  |  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  |  exit <write>
+|  |  |  |  |  found |;| SEMICOLON
+|  |  |  |  |  found |WRITE| STATEMENT
+|  |  |  |  |  enter <write>
+|  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  found |'Is it really that cold?'| WRITE
+|  |  |  |  |  |  'Is it really that cold?'
+|  |  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  |  exit <write>
+|  |  |  |  found |END| END
+|  |  |  |  exit <compound_stmt>
+|  |  |  found |ELSE| ELSE
+|  |  |  enter <else>
+|  |  |  |  found |BEGIN| STATEMENT
+|  |  |  |  found |BEGIN| BEGIN
+|  |  |  |  enter <compound_stmt>
+|  |  |  |  |  found |C| STATEMENT
+|  |  |  |  |  enter <assignment>
+|  |  |  |  |  |  found |C| IDENTIFIER
+|  |  |  |  |  |  C
+|  |  |  |  |  |  found |:=| ASSIGN
+|  |  |  |  |  |  found |(| EXPRESSION
+|  |  |  |  |  |  enter <expression>
+|  |  |  |  |  |  |  found |(| SIMPLE_EXP
+|  |  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  |  found |(| TERM
+|  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  found |(| FACTOR
+|  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  |  |  |  |  (
+|  |  |  |  |  |  |  |  |  |  found |F| EXPRESSION
+|  |  |  |  |  |  |  |  |  |  enter <expression>
+|  |  |  |  |  |  |  |  |  |  |  found |F| SIMPLE_EXP
+|  |  |  |  |  |  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  |  |  |  |  |  found |F| TERM
+|  |  |  |  |  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  |  |  |  |  found |F| FACTOR
+|  |  |  |  |  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  found |F| IDENTIFIER
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  F
+|  |  |  |  |  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  |  |  |  |  |  found |-| MINUS
+|  |  |  |  |  |  |  |  |  |  |  |  -
+|  |  |  |  |  |  |  |  |  |  |  |  found |32.0| TERM
+|  |  |  |  |  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  |  |  |  |  found |32.0| FACTOR
+|  |  |  |  |  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  found |32.0| FLOATLIT
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  32.0
+|  |  |  |  |  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  |  |  |  |  |  exit <expression>
+|  |  |  |  |  |  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  |  found |*| MULTIPLY
+|  |  |  |  |  |  |  |  |  *
+|  |  |  |  |  |  |  |  |  found |(| FACTOR
+|  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  |  |  |  |  (
+|  |  |  |  |  |  |  |  |  |  found |5.0| EXPRESSION
+|  |  |  |  |  |  |  |  |  |  enter <expression>
+|  |  |  |  |  |  |  |  |  |  |  found |5.0| SIMPLE_EXP
+|  |  |  |  |  |  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  |  |  |  |  |  found |5.0| TERM
+|  |  |  |  |  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  |  |  |  |  found |5.0| FACTOR
+|  |  |  |  |  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  found |5.0| FLOATLIT
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  5.0
+|  |  |  |  |  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  |  found |/| DIVIDE
+|  |  |  |  |  |  |  |  |  |  |  |  |  /
+|  |  |  |  |  |  |  |  |  |  |  |  |  found |9.0| FACTOR
+|  |  |  |  |  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  found |9.0| FLOATLIT
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  9.0
+|  |  |  |  |  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  |  |  |  |  |  exit <expression>
+|  |  |  |  |  |  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  |  exit <expression>
+|  |  |  |  |  exit <assignment>
+|  |  |  |  |  found |;| SEMICOLON
+|  |  |  |  |  found |WRITE| STATEMENT
+|  |  |  |  |  enter <write>
+|  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  found |' FAHRENHEIT= '| WRITE
+|  |  |  |  |  |  ' FAHRENHEIT= '
+|  |  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  |  exit <write>
+|  |  |  |  |  found |;| SEMICOLON
+|  |  |  |  |  found |WRITE| STATEMENT
+|  |  |  |  |  enter <write>
+|  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  found |F| WRITE
+|  |  |  |  |  |  F
+|  |  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  |  exit <write>
+|  |  |  |  |  found |;| SEMICOLON
+|  |  |  |  |  found |WRITE| STATEMENT
+|  |  |  |  |  enter <write>
+|  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  found |' CELSIUS= '| WRITE
+|  |  |  |  |  |  ' CELSIUS= '
+|  |  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  |  exit <write>
+|  |  |  |  |  found |;| SEMICOLON
+|  |  |  |  |  found |WRITE| STATEMENT
+|  |  |  |  |  enter <write>
+|  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  found |C| WRITE
+|  |  |  |  |  |  C
+|  |  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  |  exit <write>
+|  |  |  |  found |END| END
+|  |  |  |  exit <compound_stmt>
+|  |  |  exit <if>
+|  |  found |END| END
+|  |  exit <compound_stmt>
+|  exit <block>
+exit <program>
+
+=== GO BULLDOGS! Your parse was successful! ===
+
+User Defined Symbols:
+C
+F

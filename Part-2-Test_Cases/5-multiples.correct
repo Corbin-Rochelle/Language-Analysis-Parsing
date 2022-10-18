@@ -1,0 +1,202 @@
+INFO: Using the 5-multiples.pas file for input
+found |PROGRAM| PROGRAM
+enter <program>
+|  found |LOOPEX| IDENTIFIER
+|  found |;| SEMICOLON
+|  found |VAR| BLOCK
+|  enter <block>
+|  |  found |COUNT| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |COUNT| idType: |INTEGER| --
+|  |  found |MULTIPLE| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |MULTIPLE| idType: |INTEGER| --
+|  |  found |BASE| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |BASE| idType: |INTEGER| --
+|  |  found |BEGIN| BEGIN
+|  |  enter <compound_stmt>
+|  |  |  found |COUNT| STATEMENT
+|  |  |  enter <assignment>
+|  |  |  |  found |COUNT| IDENTIFIER
+|  |  |  |  COUNT
+|  |  |  |  found |:=| ASSIGN
+|  |  |  |  found |1| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |1| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |1| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |1| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |1| INTLIT
+|  |  |  |  |  |  |  |  1
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  exit <expression>
+|  |  |  exit <assignment>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |MULTIPLE| STATEMENT
+|  |  |  enter <assignment>
+|  |  |  |  found |MULTIPLE| IDENTIFIER
+|  |  |  |  MULTIPLE
+|  |  |  |  found |:=| ASSIGN
+|  |  |  |  found |0| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |0| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |0| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |0| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |0| INTLIT
+|  |  |  |  |  |  |  |  0
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  exit <expression>
+|  |  |  exit <assignment>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |'Enter the base integer:'| WRITE
+|  |  |  |  'Enter the base integer:'
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |READ| STATEMENT
+|  |  |  enter <read>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |BASE| IDENTIFIER
+|  |  |  |  BASE
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <read>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |'Here come your multiples!'| WRITE
+|  |  |  |  'Here come your multiples!'
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WHILE| STATEMENT
+|  |  |  enter <while>
+|  |  |  |  found |COUNT| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |COUNT| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |COUNT| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |COUNT| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |COUNT| IDENTIFIER
+|  |  |  |  |  |  |  |  COUNT
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  found |<| LESSTHAN
+|  |  |  |  |  <
+|  |  |  |  |  found |12| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |12| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |12| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |12| INTLIT
+|  |  |  |  |  |  |  |  12
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  exit <expression>
+|  |  |  |  found |BEGIN| STATEMENT
+|  |  |  |  found |BEGIN| BEGIN
+|  |  |  |  enter <compound_stmt>
+|  |  |  |  |  found |MULTIPLE| STATEMENT
+|  |  |  |  |  enter <assignment>
+|  |  |  |  |  |  found |MULTIPLE| IDENTIFIER
+|  |  |  |  |  |  MULTIPLE
+|  |  |  |  |  |  found |:=| ASSIGN
+|  |  |  |  |  |  found |COUNT| EXPRESSION
+|  |  |  |  |  |  enter <expression>
+|  |  |  |  |  |  |  found |COUNT| SIMPLE_EXP
+|  |  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  |  found |COUNT| TERM
+|  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  found |COUNT| FACTOR
+|  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  found |COUNT| IDENTIFIER
+|  |  |  |  |  |  |  |  |  |  COUNT
+|  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  |  found |*| MULTIPLY
+|  |  |  |  |  |  |  |  |  *
+|  |  |  |  |  |  |  |  |  found |BASE| FACTOR
+|  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  found |BASE| IDENTIFIER
+|  |  |  |  |  |  |  |  |  |  BASE
+|  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  |  exit <expression>
+|  |  |  |  |  exit <assignment>
+|  |  |  |  |  found |;| SEMICOLON
+|  |  |  |  |  found |WRITE| STATEMENT
+|  |  |  |  |  enter <write>
+|  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  found |MULTIPLE| WRITE
+|  |  |  |  |  |  MULTIPLE
+|  |  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  |  exit <write>
+|  |  |  |  |  found |;| SEMICOLON
+|  |  |  |  |  found |COUNT| STATEMENT
+|  |  |  |  |  enter <assignment>
+|  |  |  |  |  |  found |COUNT| IDENTIFIER
+|  |  |  |  |  |  COUNT
+|  |  |  |  |  |  found |:=| ASSIGN
+|  |  |  |  |  |  found |COUNT| EXPRESSION
+|  |  |  |  |  |  enter <expression>
+|  |  |  |  |  |  |  found |COUNT| SIMPLE_EXP
+|  |  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  |  found |COUNT| TERM
+|  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  found |COUNT| FACTOR
+|  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  found |COUNT| IDENTIFIER
+|  |  |  |  |  |  |  |  |  |  COUNT
+|  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  |  found |+| PLUS
+|  |  |  |  |  |  |  |  +
+|  |  |  |  |  |  |  |  found |1| TERM
+|  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  found |1| FACTOR
+|  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  found |1| INTLIT
+|  |  |  |  |  |  |  |  |  |  1
+|  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  |  exit <expression>
+|  |  |  |  |  exit <assignment>
+|  |  |  |  found |END| END
+|  |  |  |  exit <compound_stmt>
+|  |  |  exit <while>
+|  |  found |END| END
+|  |  exit <compound_stmt>
+|  exit <block>
+exit <program>
+
+=== GO BULLDOGS! Your parse was successful! ===
+
+User Defined Symbols:
+BASE
+COUNT
+MULTIPLE

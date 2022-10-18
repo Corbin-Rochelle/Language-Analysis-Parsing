@@ -1,0 +1,313 @@
+INFO: Using the 7-bmi_calc.pas file for input
+found |PROGRAM| PROGRAM
+enter <program>
+|  found |BMICALC| IDENTIFIER
+|  found |;| SEMICOLON
+|  found |VAR| BLOCK
+|  enter <block>
+|  |  found |WEIGHT| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |WEIGHT| idType: |INTEGER| --
+|  |  found |HEIGHT| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |HEIGHT| idType: |INTEGER| --
+|  |  found |BMI| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |REAL| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |BMI| idType: |REAL| --
+|  |  found |BEGIN| BEGIN
+|  |  enter <compound_stmt>
+|  |  |  found |WEIGHT| STATEMENT
+|  |  |  enter <assignment>
+|  |  |  |  found |WEIGHT| IDENTIFIER
+|  |  |  |  WEIGHT
+|  |  |  |  found |:=| ASSIGN
+|  |  |  |  found |0| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |0| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |0| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |0| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |0| INTLIT
+|  |  |  |  |  |  |  |  0
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  exit <expression>
+|  |  |  exit <assignment>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |HEIGHT| STATEMENT
+|  |  |  enter <assignment>
+|  |  |  |  found |HEIGHT| IDENTIFIER
+|  |  |  |  HEIGHT
+|  |  |  |  found |:=| ASSIGN
+|  |  |  |  found |0| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |0| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |0| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |0| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |0| INTLIT
+|  |  |  |  |  |  |  |  0
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  exit <expression>
+|  |  |  exit <assignment>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |BMI| STATEMENT
+|  |  |  enter <assignment>
+|  |  |  |  found |BMI| IDENTIFIER
+|  |  |  |  BMI
+|  |  |  |  found |:=| ASSIGN
+|  |  |  |  found |0.0| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |0.0| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |0.0| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |0.0| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |0.0| FLOATLIT
+|  |  |  |  |  |  |  |  0.0
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  exit <expression>
+|  |  |  exit <assignment>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |'What is your weight (in pounds)?'| WRITE
+|  |  |  |  'What is your weight (in pounds)?'
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |READ| STATEMENT
+|  |  |  enter <read>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |WEIGHT| IDENTIFIER
+|  |  |  |  WEIGHT
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <read>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |'What is your height (in inches)?'| WRITE
+|  |  |  |  'What is your height (in inches)?'
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |READ| STATEMENT
+|  |  |  enter <read>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |HEIGHT| IDENTIFIER
+|  |  |  |  HEIGHT
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <read>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |BMI| STATEMENT
+|  |  |  enter <assignment>
+|  |  |  |  found |BMI| IDENTIFIER
+|  |  |  |  BMI
+|  |  |  |  found |:=| ASSIGN
+|  |  |  |  found |(| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |(| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |(| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |(| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  |  |  (
+|  |  |  |  |  |  |  |  found |703| EXPRESSION
+|  |  |  |  |  |  |  |  enter <expression>
+|  |  |  |  |  |  |  |  |  found |703| SIMPLE_EXP
+|  |  |  |  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  |  |  |  found |703| TERM
+|  |  |  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  |  |  found |703| FACTOR
+|  |  |  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  found |703| INTLIT
+|  |  |  |  |  |  |  |  |  |  |  |  703
+|  |  |  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  |  |  |  found |*| MULTIPLY
+|  |  |  |  |  |  |  |  |  |  |  *
+|  |  |  |  |  |  |  |  |  |  |  found |WEIGHT| FACTOR
+|  |  |  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  found |WEIGHT| IDENTIFIER
+|  |  |  |  |  |  |  |  |  |  |  |  WEIGHT
+|  |  |  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  |  |  |  exit <expression>
+|  |  |  |  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  found |/| DIVIDE
+|  |  |  |  |  |  |  /
+|  |  |  |  |  |  |  found |(| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  |  |  (
+|  |  |  |  |  |  |  |  found |HEIGHT| EXPRESSION
+|  |  |  |  |  |  |  |  enter <expression>
+|  |  |  |  |  |  |  |  |  found |HEIGHT| SIMPLE_EXP
+|  |  |  |  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  |  |  |  found |HEIGHT| TERM
+|  |  |  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  |  |  found |HEIGHT| FACTOR
+|  |  |  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  found |HEIGHT| IDENTIFIER
+|  |  |  |  |  |  |  |  |  |  |  |  HEIGHT
+|  |  |  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  |  |  |  found |*| MULTIPLY
+|  |  |  |  |  |  |  |  |  |  |  *
+|  |  |  |  |  |  |  |  |  |  |  found |HEIGHT| FACTOR
+|  |  |  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  found |HEIGHT| IDENTIFIER
+|  |  |  |  |  |  |  |  |  |  |  |  HEIGHT
+|  |  |  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  |  |  |  exit <expression>
+|  |  |  |  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  exit <expression>
+|  |  |  exit <assignment>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |'YOUR BMI IS'| WRITE
+|  |  |  |  'YOUR BMI IS'
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |BMI| WRITE
+|  |  |  |  BMI
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |''| WRITE
+|  |  |  |  ''
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |IF| STATEMENT
+|  |  |  enter <if>
+|  |  |  |  found |BMI| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |BMI| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |BMI| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |BMI| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |BMI| IDENTIFIER
+|  |  |  |  |  |  |  |  BMI
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  found |>| GREATERTHAN
+|  |  |  |  |  >
+|  |  |  |  |  found |24.99| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |24.99| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |24.99| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |24.99| FLOATLIT
+|  |  |  |  |  |  |  |  24.99
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  exit <expression>
+|  |  |  |  found |THEN| THEN
+|  |  |  |  found |WRITE| STATEMENT
+|  |  |  |  enter <write>
+|  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  found |'You might be overweight'| WRITE
+|  |  |  |  |  'You might be overweight'
+|  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  exit <write>
+|  |  |  found |ELSE| ELSE
+|  |  |  enter <else>
+|  |  |  |  found |IF| STATEMENT
+|  |  |  |  enter <if>
+|  |  |  |  |  found |BMI| EXPRESSION
+|  |  |  |  |  enter <expression>
+|  |  |  |  |  |  found |BMI| SIMPLE_EXP
+|  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  found |BMI| TERM
+|  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  found |BMI| FACTOR
+|  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  found |BMI| IDENTIFIER
+|  |  |  |  |  |  |  |  |  BMI
+|  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  |  found |<| LESSTHAN
+|  |  |  |  |  |  <
+|  |  |  |  |  |  found |18.5| SIMPLE_EXP
+|  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  found |18.5| TERM
+|  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  found |18.5| FACTOR
+|  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  found |18.5| FLOATLIT
+|  |  |  |  |  |  |  |  |  18.5
+|  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  exit <expression>
+|  |  |  |  |  found |THEN| THEN
+|  |  |  |  |  found |WRITE| STATEMENT
+|  |  |  |  |  enter <write>
+|  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  found |'You might be underweight'| WRITE
+|  |  |  |  |  |  'You might be underweight'
+|  |  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  |  exit <write>
+|  |  |  |  found |ELSE| ELSE
+|  |  |  |  enter <else>
+|  |  |  |  |  found |WRITE| STATEMENT
+|  |  |  |  |  enter <write>
+|  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  found |'You have a normal weight'| WRITE
+|  |  |  |  |  |  'You have a normal weight'
+|  |  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  |  exit <write>
+|  |  |  |  exit <if>
+|  |  |  exit <if>
+|  |  found |END| END
+|  |  exit <compound_stmt>
+|  exit <block>
+exit <program>
+
+=== GO BULLDOGS! Your parse was successful! ===
+
+User Defined Symbols:
+BMI
+HEIGHT
+WEIGHT

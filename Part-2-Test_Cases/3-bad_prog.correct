@@ -1,0 +1,82 @@
+INFO: Using the 3-bad_prog.pas file for input
+found |PROGRAM| PROGRAM
+enter <program>
+|  found |BADPROG| IDENTIFIER
+|  found |;| SEMICOLON
+|  found |BEGIN| BLOCK
+|  enter <block>
+|  |  found |BEGIN| BEGIN
+|  |  enter <compound_stmt>
+|  |  |  found |IF| STATEMENT
+|  |  |  enter <if>
+|  |  |  |  found |3| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |3| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |3| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |3| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |3| INTLIT
+|  |  |  |  |  |  |  |  3
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  found |<| LESSTHAN
+|  |  |  |  |  <
+|  |  |  |  |  found |4.5| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |4.5| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |4.5| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |4.5| FLOATLIT
+|  |  |  |  |  |  |  |  4.5
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  exit <expression>
+|  |  |  |  found |THEN| THEN
+|  |  |  |  found |WRITE| STATEMENT
+|  |  |  |  enter <write>
+|  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  found |'YES IT IS'| WRITE
+|  |  |  |  |  'YES IT IS'
+|  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  exit <write>
+|  |  |  found |ELSE| ELSE
+|  |  |  enter <else>
+|  |  |  |  found |WRITE| STATEMENT
+|  |  |  |  enter <write>
+|  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  found |'NOPE'| WRITE
+|  |  |  |  |  'NOPE'
+|  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  exit <write>
+|  |  |  exit <if>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WHILE| STATEMENT
+|  |  |  enter <while>
+|  |  |  |  found |(| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |(| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |(| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |(| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  |  |  (
+|  |  |  |  |  |  |  |  found |WHAT| EXPRESSION
+|  |  |  |  |  |  |  |  enter <expression>
+|  |  |  |  |  |  |  |  |  found |WHAT| SIMPLE_EXP
+|  |  |  |  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  |  |  |  found |WHAT| TERM
+|  |  |  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  |  |  found |WHAT| FACTOR
+|  |  |  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  found |WHAT| IDENTIFIER
+|  |  |  |  |  |  |  |  |  |  |  |  WHAT
+
+***ERROR:
+On line number 10, near |WHAT|, error type 104: identifier not declared

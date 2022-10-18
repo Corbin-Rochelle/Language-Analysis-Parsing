@@ -1,0 +1,194 @@
+INFO: Using the 2-areas.pas file for input
+found |PROGRAM| PROGRAM
+enter <program>
+|  found |AREAS| IDENTIFIER
+|  found |;| SEMICOLON
+|  found |VAR| BLOCK
+|  enter <block>
+|  |  found |HEIGHT| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |REAL| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |HEIGHT| idType: |REAL| --
+|  |  found |WIDTH| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |REAL| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |WIDTH| idType: |REAL| --
+|  |  found |PI| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |REAL| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |PI| idType: |REAL| --
+|  |  found |RAREA| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |REAL| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |RAREA| idType: |REAL| --
+|  |  found |EAREA| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |REAL| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |EAREA| idType: |REAL| --
+|  |  found |BEGIN| BEGIN
+|  |  enter <compound_stmt>
+|  |  |  found |PI| STATEMENT
+|  |  |  enter <assignment>
+|  |  |  |  found |PI| IDENTIFIER
+|  |  |  |  PI
+|  |  |  |  found |:=| ASSIGN
+|  |  |  |  found |3.14159| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |3.14159| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |3.14159| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |3.14159| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |3.14159| FLOATLIT
+|  |  |  |  |  |  |  |  3.14159
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  exit <expression>
+|  |  |  exit <assignment>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |'Input height: '| WRITE
+|  |  |  |  'Input height: '
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |READ| STATEMENT
+|  |  |  enter <read>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |HEIGHT| IDENTIFIER
+|  |  |  |  HEIGHT
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <read>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |'Input width: '| WRITE
+|  |  |  |  'Input width: '
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |READ| STATEMENT
+|  |  |  enter <read>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |WIDTH| IDENTIFIER
+|  |  |  |  WIDTH
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <read>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |RAREA| STATEMENT
+|  |  |  enter <assignment>
+|  |  |  |  found |RAREA| IDENTIFIER
+|  |  |  |  RAREA
+|  |  |  |  found |:=| ASSIGN
+|  |  |  |  found |HEIGHT| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |HEIGHT| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |HEIGHT| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |HEIGHT| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |HEIGHT| IDENTIFIER
+|  |  |  |  |  |  |  |  HEIGHT
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  found |*| MULTIPLY
+|  |  |  |  |  |  |  *
+|  |  |  |  |  |  |  found |WIDTH| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |WIDTH| IDENTIFIER
+|  |  |  |  |  |  |  |  WIDTH
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  exit <expression>
+|  |  |  exit <assignment>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |EAREA| STATEMENT
+|  |  |  enter <assignment>
+|  |  |  |  found |EAREA| IDENTIFIER
+|  |  |  |  EAREA
+|  |  |  |  found |:=| ASSIGN
+|  |  |  |  found |PI| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |PI| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |PI| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |PI| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |PI| IDENTIFIER
+|  |  |  |  |  |  |  |  PI
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  found |*| MULTIPLY
+|  |  |  |  |  |  |  *
+|  |  |  |  |  |  |  found |HEIGHT| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |HEIGHT| IDENTIFIER
+|  |  |  |  |  |  |  |  HEIGHT
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  found |*| MULTIPLY
+|  |  |  |  |  |  |  *
+|  |  |  |  |  |  |  found |WIDTH| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |WIDTH| IDENTIFIER
+|  |  |  |  |  |  |  |  WIDTH
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  exit <expression>
+|  |  |  exit <assignment>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |'RAREA = '| WRITE
+|  |  |  |  'RAREA = '
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |RAREA| WRITE
+|  |  |  |  RAREA
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |'EAREA = '| WRITE
+|  |  |  |  'EAREA = '
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |EAREA| WRITE
+|  |  |  |  EAREA
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  found |END| END
+|  |  exit <compound_stmt>
+|  exit <block>
+exit <program>
+
+=== GO BULLDOGS! Your parse was successful! ===
+
+User Defined Symbols:
+EAREA
+HEIGHT
+PI
+RAREA
+WIDTH

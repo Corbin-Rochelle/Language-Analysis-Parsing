@@ -1,0 +1,364 @@
+INFO: Using the 8-mult_table.pas file for input
+found |PROGRAM| PROGRAM
+enter <program>
+|  found |LOOPEX2| IDENTIFIER
+|  found |;| SEMICOLON
+|  found |VAR| BLOCK
+|  enter <block>
+|  |  found |COL| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |COL| idType: |INTEGER| --
+|  |  found |ROW| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |ROW| idType: |INTEGER| --
+|  |  found |PRODUCT| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |PRODUCT| idType: |INTEGER| --
+|  |  found |MAXIMUM| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |MAXIMUM| idType: |INTEGER| --
+|  |  found |BEGIN| BEGIN
+|  |  enter <compound_stmt>
+|  |  |  found |COL| STATEMENT
+|  |  |  enter <assignment>
+|  |  |  |  found |COL| IDENTIFIER
+|  |  |  |  COL
+|  |  |  |  found |:=| ASSIGN
+|  |  |  |  found |0| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |0| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |0| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |0| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |0| INTLIT
+|  |  |  |  |  |  |  |  0
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  exit <expression>
+|  |  |  exit <assignment>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |ROW| STATEMENT
+|  |  |  enter <assignment>
+|  |  |  |  found |ROW| IDENTIFIER
+|  |  |  |  ROW
+|  |  |  |  found |:=| ASSIGN
+|  |  |  |  found |0| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |0| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |0| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |0| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |0| INTLIT
+|  |  |  |  |  |  |  |  0
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  exit <expression>
+|  |  |  exit <assignment>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |'Enter the maximum integer'| WRITE
+|  |  |  |  'Enter the maximum integer'
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |'(it must be greater than 0):'| WRITE
+|  |  |  |  '(it must be greater than 0):'
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |READ| STATEMENT
+|  |  |  enter <read>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |MAXIMUM| IDENTIFIER
+|  |  |  |  MAXIMUM
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <read>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |'Multiplication Table:'| WRITE
+|  |  |  |  'Multiplication Table:'
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WHILE| STATEMENT
+|  |  |  enter <while>
+|  |  |  |  found |ROW| EXPRESSION
+|  |  |  |  enter <expression>
+|  |  |  |  |  found |ROW| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |ROW| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |ROW| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |ROW| IDENTIFIER
+|  |  |  |  |  |  |  |  ROW
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  found |<| LESSTHAN
+|  |  |  |  |  <
+|  |  |  |  |  found |MAXIMUM| SIMPLE_EXP
+|  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  found |MAXIMUM| TERM
+|  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  found |MAXIMUM| FACTOR
+|  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  found |MAXIMUM| IDENTIFIER
+|  |  |  |  |  |  |  |  MAXIMUM
+|  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  exit <term>
+|  |  |  |  |  exit <simple_exp>
+|  |  |  |  exit <expression>
+|  |  |  |  found |BEGIN| STATEMENT
+|  |  |  |  found |BEGIN| BEGIN
+|  |  |  |  enter <compound_stmt>
+|  |  |  |  |  found |WRITE| STATEMENT
+|  |  |  |  |  enter <write>
+|  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  found |'Starting a new row'| WRITE
+|  |  |  |  |  |  'Starting a new row'
+|  |  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  |  exit <write>
+|  |  |  |  |  found |;| SEMICOLON
+|  |  |  |  |  found |COL| STATEMENT
+|  |  |  |  |  enter <assignment>
+|  |  |  |  |  |  found |COL| IDENTIFIER
+|  |  |  |  |  |  COL
+|  |  |  |  |  |  found |:=| ASSIGN
+|  |  |  |  |  |  found |0| EXPRESSION
+|  |  |  |  |  |  enter <expression>
+|  |  |  |  |  |  |  found |0| SIMPLE_EXP
+|  |  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  |  found |0| TERM
+|  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  found |0| FACTOR
+|  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  found |0| INTLIT
+|  |  |  |  |  |  |  |  |  |  0
+|  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  |  exit <expression>
+|  |  |  |  |  exit <assignment>
+|  |  |  |  |  found |;| SEMICOLON
+|  |  |  |  |  found |WHILE| STATEMENT
+|  |  |  |  |  enter <while>
+|  |  |  |  |  |  found |COL| EXPRESSION
+|  |  |  |  |  |  enter <expression>
+|  |  |  |  |  |  |  found |COL| SIMPLE_EXP
+|  |  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  |  found |COL| TERM
+|  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  found |COL| FACTOR
+|  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  found |COL| IDENTIFIER
+|  |  |  |  |  |  |  |  |  |  COL
+|  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  |  |  found |<| LESSTHAN
+|  |  |  |  |  |  |  <
+|  |  |  |  |  |  |  found |MAXIMUM| SIMPLE_EXP
+|  |  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  |  found |MAXIMUM| TERM
+|  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  found |MAXIMUM| FACTOR
+|  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  found |MAXIMUM| IDENTIFIER
+|  |  |  |  |  |  |  |  |  |  MAXIMUM
+|  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  |  exit <expression>
+|  |  |  |  |  |  found |BEGIN| STATEMENT
+|  |  |  |  |  |  found |BEGIN| BEGIN
+|  |  |  |  |  |  enter <compound_stmt>
+|  |  |  |  |  |  |  found |PRODUCT| STATEMENT
+|  |  |  |  |  |  |  enter <assignment>
+|  |  |  |  |  |  |  |  found |PRODUCT| IDENTIFIER
+|  |  |  |  |  |  |  |  PRODUCT
+|  |  |  |  |  |  |  |  found |:=| ASSIGN
+|  |  |  |  |  |  |  |  found |COL| EXPRESSION
+|  |  |  |  |  |  |  |  enter <expression>
+|  |  |  |  |  |  |  |  |  found |COL| SIMPLE_EXP
+|  |  |  |  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  |  |  |  found |COL| TERM
+|  |  |  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  |  |  found |COL| FACTOR
+|  |  |  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  found |COL| IDENTIFIER
+|  |  |  |  |  |  |  |  |  |  |  |  COL
+|  |  |  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  |  |  |  found |*| MULTIPLY
+|  |  |  |  |  |  |  |  |  |  |  *
+|  |  |  |  |  |  |  |  |  |  |  found |ROW| FACTOR
+|  |  |  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  found |ROW| IDENTIFIER
+|  |  |  |  |  |  |  |  |  |  |  |  ROW
+|  |  |  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  |  |  |  exit <expression>
+|  |  |  |  |  |  |  exit <assignment>
+|  |  |  |  |  |  |  found |;| SEMICOLON
+|  |  |  |  |  |  |  found |IF| STATEMENT
+|  |  |  |  |  |  |  enter <if>
+|  |  |  |  |  |  |  |  found |PRODUCT| EXPRESSION
+|  |  |  |  |  |  |  |  enter <expression>
+|  |  |  |  |  |  |  |  |  found |PRODUCT| SIMPLE_EXP
+|  |  |  |  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  |  |  |  found |PRODUCT| TERM
+|  |  |  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  |  |  found |PRODUCT| FACTOR
+|  |  |  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  found |PRODUCT| IDENTIFIER
+|  |  |  |  |  |  |  |  |  |  |  |  PRODUCT
+|  |  |  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  |  |  |  |  found |<| LESSTHAN
+|  |  |  |  |  |  |  |  |  <
+|  |  |  |  |  |  |  |  |  found |100| SIMPLE_EXP
+|  |  |  |  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  |  |  |  found |100| TERM
+|  |  |  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  |  |  found |100| FACTOR
+|  |  |  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  found |100| INTLIT
+|  |  |  |  |  |  |  |  |  |  |  |  100
+|  |  |  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  |  |  |  exit <expression>
+|  |  |  |  |  |  |  |  found |THEN| THEN
+|  |  |  |  |  |  |  |  found |WRITE| STATEMENT
+|  |  |  |  |  |  |  |  enter <write>
+|  |  |  |  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  |  |  |  found |PRODUCT| WRITE
+|  |  |  |  |  |  |  |  |  PRODUCT
+|  |  |  |  |  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  |  |  |  |  exit <write>
+|  |  |  |  |  |  |  found |ELSE| ELSE
+|  |  |  |  |  |  |  enter <else>
+|  |  |  |  |  |  |  |  found |BEGIN| STATEMENT
+|  |  |  |  |  |  |  |  found |BEGIN| BEGIN
+|  |  |  |  |  |  |  |  enter <compound_stmt>
+|  |  |  |  |  |  |  |  |  found |WRITE| STATEMENT
+|  |  |  |  |  |  |  |  |  enter <write>
+|  |  |  |  |  |  |  |  |  |  found |(| OPENPAREN
+|  |  |  |  |  |  |  |  |  |  found |'Now that is a big number!'| WRITE
+|  |  |  |  |  |  |  |  |  |  'Now that is a big number!'
+|  |  |  |  |  |  |  |  |  |  found |)| CLOSEPAREN
+|  |  |  |  |  |  |  |  |  exit <write>
+|  |  |  |  |  |  |  |  found |END| END
+|  |  |  |  |  |  |  |  exit <compound_stmt>
+|  |  |  |  |  |  |  exit <if>
+|  |  |  |  |  |  |  found |;| SEMICOLON
+|  |  |  |  |  |  |  found |COL| STATEMENT
+|  |  |  |  |  |  |  enter <assignment>
+|  |  |  |  |  |  |  |  found |COL| IDENTIFIER
+|  |  |  |  |  |  |  |  COL
+|  |  |  |  |  |  |  |  found |:=| ASSIGN
+|  |  |  |  |  |  |  |  found |COL| EXPRESSION
+|  |  |  |  |  |  |  |  enter <expression>
+|  |  |  |  |  |  |  |  |  found |COL| SIMPLE_EXP
+|  |  |  |  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  |  |  |  found |COL| TERM
+|  |  |  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  |  |  found |COL| FACTOR
+|  |  |  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  found |COL| IDENTIFIER
+|  |  |  |  |  |  |  |  |  |  |  |  COL
+|  |  |  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  |  |  |  found |+| PLUS
+|  |  |  |  |  |  |  |  |  |  +
+|  |  |  |  |  |  |  |  |  |  found |1| TERM
+|  |  |  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  |  |  found |1| FACTOR
+|  |  |  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  |  |  found |1| INTLIT
+|  |  |  |  |  |  |  |  |  |  |  |  1
+|  |  |  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  |  |  |  exit <expression>
+|  |  |  |  |  |  |  exit <assignment>
+|  |  |  |  |  |  found |END| END
+|  |  |  |  |  |  exit <compound_stmt>
+|  |  |  |  |  exit <while>
+|  |  |  |  |  found |;| SEMICOLON
+|  |  |  |  |  found |ROW| STATEMENT
+|  |  |  |  |  enter <assignment>
+|  |  |  |  |  |  found |ROW| IDENTIFIER
+|  |  |  |  |  |  ROW
+|  |  |  |  |  |  found |:=| ASSIGN
+|  |  |  |  |  |  found |ROW| EXPRESSION
+|  |  |  |  |  |  enter <expression>
+|  |  |  |  |  |  |  found |ROW| SIMPLE_EXP
+|  |  |  |  |  |  |  enter <simple_exp>
+|  |  |  |  |  |  |  |  found |ROW| TERM
+|  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  found |ROW| FACTOR
+|  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  found |ROW| IDENTIFIER
+|  |  |  |  |  |  |  |  |  |  ROW
+|  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  |  found |+| PLUS
+|  |  |  |  |  |  |  |  +
+|  |  |  |  |  |  |  |  found |1| TERM
+|  |  |  |  |  |  |  |  enter <term>
+|  |  |  |  |  |  |  |  |  found |1| FACTOR
+|  |  |  |  |  |  |  |  |  enter <factor>
+|  |  |  |  |  |  |  |  |  |  found |1| INTLIT
+|  |  |  |  |  |  |  |  |  |  1
+|  |  |  |  |  |  |  |  |  exit <factor>
+|  |  |  |  |  |  |  |  exit <term>
+|  |  |  |  |  |  |  exit <simple_exp>
+|  |  |  |  |  |  exit <expression>
+|  |  |  |  |  exit <assignment>
+|  |  |  |  found |END| END
+|  |  |  |  exit <compound_stmt>
+|  |  |  exit <while>
+|  |  |  found |;| SEMICOLON
+|  |  |  found |WRITE| STATEMENT
+|  |  |  enter <write>
+|  |  |  |  found |(| OPENPAREN
+|  |  |  |  found |'--- the end ---'| WRITE
+|  |  |  |  '--- the end ---'
+|  |  |  |  found |)| CLOSEPAREN
+|  |  |  exit <write>
+|  |  found |END| END
+|  |  exit <compound_stmt>
+|  exit <block>
+exit <program>
+
+=== GO BULLDOGS! Your parse was successful! ===
+
+User Defined Symbols:
+COL
+MAXIMUM
+PRODUCT
+ROW

@@ -1,0 +1,535 @@
+INFO: Using the 6-lotsovar.pas file for input
+found |PROGRAM| PROGRAM
+enter <program>
+|  found |LOTSOVAR| IDENTIFIER
+|  found |;| SEMICOLON
+|  found |VAR| BLOCK
+|  enter <block>
+|  |  found |COUNT| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |COUNT| idType: |INTEGER| --
+|  |  found |MULTIPLE| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |MULTIPLE| idType: |INTEGER| --
+|  |  found |BASE| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |BASE| idType: |INTEGER| --
+|  |  found |A1| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A1| idType: |INTEGER| --
+|  |  found |A2| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A2| idType: |INTEGER| --
+|  |  found |A3| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A3| idType: |INTEGER| --
+|  |  found |A4| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A4| idType: |INTEGER| --
+|  |  found |A5| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A5| idType: |INTEGER| --
+|  |  found |A6| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A6| idType: |INTEGER| --
+|  |  found |A7| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A7| idType: |INTEGER| --
+|  |  found |A8| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A8| idType: |INTEGER| --
+|  |  found |A9| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A9| idType: |INTEGER| --
+|  |  found |A10| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A10| idType: |INTEGER| --
+|  |  found |A11| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A11| idType: |INTEGER| --
+|  |  found |A12| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A12| idType: |INTEGER| --
+|  |  found |A13| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A13| idType: |INTEGER| --
+|  |  found |A14| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A14| idType: |INTEGER| --
+|  |  found |A15| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A15| idType: |INTEGER| --
+|  |  found |A16| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A16| idType: |INTEGER| --
+|  |  found |A17| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A17| idType: |INTEGER| --
+|  |  found |A18| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A18| idType: |INTEGER| --
+|  |  found |A19| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A19| idType: |INTEGER| --
+|  |  found |A20| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A20| idType: |INTEGER| --
+|  |  found |A21| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A21| idType: |INTEGER| --
+|  |  found |A22| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A22| idType: |INTEGER| --
+|  |  found |A23| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A23| idType: |INTEGER| --
+|  |  found |A24| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A24| idType: |INTEGER| --
+|  |  found |A25| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A25| idType: |INTEGER| --
+|  |  found |A26| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A26| idType: |INTEGER| --
+|  |  found |A27| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A27| idType: |INTEGER| --
+|  |  found |A28| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A28| idType: |INTEGER| --
+|  |  found |A29| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A29| idType: |INTEGER| --
+|  |  found |A30| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A30| idType: |INTEGER| --
+|  |  found |A31| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A31| idType: |INTEGER| --
+|  |  found |A32| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A32| idType: |INTEGER| --
+|  |  found |A33| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A33| idType: |INTEGER| --
+|  |  found |A34| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A34| idType: |INTEGER| --
+|  |  found |A35| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A35| idType: |INTEGER| --
+|  |  found |A36| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A36| idType: |INTEGER| --
+|  |  found |A37| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A37| idType: |INTEGER| --
+|  |  found |A38| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A38| idType: |INTEGER| --
+|  |  found |A39| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A39| idType: |INTEGER| --
+|  |  found |A40| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A40| idType: |INTEGER| --
+|  |  found |A41| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A41| idType: |INTEGER| --
+|  |  found |A42| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A42| idType: |INTEGER| --
+|  |  found |A43| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A43| idType: |INTEGER| --
+|  |  found |A44| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A44| idType: |INTEGER| --
+|  |  found |A45| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A45| idType: |INTEGER| --
+|  |  found |A46| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A46| idType: |INTEGER| --
+|  |  found |A47| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A47| idType: |INTEGER| --
+|  |  found |A48| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A48| idType: |INTEGER| --
+|  |  found |A49| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A49| idType: |INTEGER| --
+|  |  found |A50| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A50| idType: |INTEGER| --
+|  |  found |A51| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A51| idType: |INTEGER| --
+|  |  found |A52| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A52| idType: |INTEGER| --
+|  |  found |A53| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A53| idType: |INTEGER| --
+|  |  found |A54| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A54| idType: |INTEGER| --
+|  |  found |A55| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A55| idType: |INTEGER| --
+|  |  found |A56| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A56| idType: |INTEGER| --
+|  |  found |A57| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A57| idType: |INTEGER| --
+|  |  found |A58| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A58| idType: |INTEGER| --
+|  |  found |A59| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A59| idType: |INTEGER| --
+|  |  found |A60| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A60| idType: |INTEGER| --
+|  |  found |A61| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A61| idType: |INTEGER| --
+|  |  found |A62| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A62| idType: |INTEGER| --
+|  |  found |A63| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A63| idType: |INTEGER| --
+|  |  found |A64| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A64| idType: |INTEGER| --
+|  |  found |A65| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A65| idType: |INTEGER| --
+|  |  found |A66| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A66| idType: |INTEGER| --
+|  |  found |A67| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A67| idType: |INTEGER| --
+|  |  found |A68| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A68| idType: |INTEGER| --
+|  |  found |A69| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A69| idType: |INTEGER| --
+|  |  found |A70| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A70| idType: |INTEGER| --
+|  |  found |A71| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A71| idType: |INTEGER| --
+|  |  found |A72| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A72| idType: |INTEGER| --
+|  |  found |A73| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A73| idType: |INTEGER| --
+|  |  found |A74| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A74| idType: |INTEGER| --
+|  |  found |A75| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A75| idType: |INTEGER| --
+|  |  found |A76| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A76| idType: |INTEGER| --
+|  |  found |A77| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A77| idType: |INTEGER| --
+|  |  found |A78| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A78| idType: |INTEGER| --
+|  |  found |A79| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A79| idType: |INTEGER| --
+|  |  found |A80| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A80| idType: |INTEGER| --
+|  |  found |A81| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A81| idType: |INTEGER| --
+|  |  found |A82| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A82| idType: |INTEGER| --
+|  |  found |A83| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A83| idType: |INTEGER| --
+|  |  found |A84| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A84| idType: |INTEGER| --
+|  |  found |A85| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A85| idType: |INTEGER| --
+|  |  found |A86| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A86| idType: |INTEGER| --
+|  |  found |A87| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A87| idType: |INTEGER| --
+|  |  found |A88| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A88| idType: |INTEGER| --
+|  |  found |A89| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A89| idType: |INTEGER| --
+|  |  found |A90| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A90| idType: |INTEGER| --
+|  |  found |A91| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A91| idType: |INTEGER| --
+|  |  found |A92| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A92| idType: |INTEGER| --
+|  |  found |A93| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A93| idType: |INTEGER| --
+|  |  found |A94| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A94| idType: |INTEGER| --
+|  |  found |A95| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A95| idType: |INTEGER| --
+|  |  found |A96| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A96| idType: |INTEGER| --
+|  |  found |A97| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A97| idType: |INTEGER| --
+|  |  found |A98| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A98| idType: |INTEGER| --
+|  |  found |A99| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A99| idType: |INTEGER| --
+|  |  found |A100| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A100| idType: |INTEGER| --
+|  |  found |A101| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |INTEGER| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |A101| idType: |INTEGER| --
+|  |  found |BASE| IDENTIFIER
+|  |  found |:| COLON
+|  |  found |REAL| TYPE
+|  |  found |;| SEMICOLON
+|  |  -- idName: |BASE| idType: |REAL| --
+
+***ERROR:
+On line number 109, near |;|, error type 101: identifier declared twice
