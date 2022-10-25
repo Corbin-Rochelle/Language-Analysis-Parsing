@@ -26,5 +26,11 @@ extern "C" {
 
 // Function declarations
 void program();
+void block();
+void statement();
+void expression();
+void simple_expression();
+void term();
+void factor();
 
 #endif /* PARSER_H */
